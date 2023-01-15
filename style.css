@@ -87,8 +87,53 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  font-size: 2.5rem;
+  line-height: 1;
+  text-align: center;
+}
+
+h3 {
+  padding-top: 25rem;
+  text-align: center;
+  color: hsl(169, 42%, 23%);
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+p {
+  text-align: center;
+  font-family: var(--ff-base);
+  opacity: 50%;
+}
+
+.link {
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border-bottom: 2px solid pink;
+}
+
 .header {
   background-image: url(./images/mobile/image-header.jpg);
   background-repeat: no-repeat;
   color: var(--clr-neutral-100);
+  background-position: center, center;
+  background-size: cover;
+}
+
+.card-1 {
+  background-image: url(./images/mobile/image-graphic-design.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.card-2 {
+  background-image: url(./images/mobile/image-photography.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
