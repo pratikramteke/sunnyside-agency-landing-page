@@ -117,6 +117,11 @@ p {
   opacity: 50%;
 }
 
+section {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
 .container {
   width: 90%;
   max-width: 1150px;
